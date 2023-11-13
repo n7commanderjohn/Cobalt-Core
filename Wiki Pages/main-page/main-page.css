@@ -1,0 +1,106 @@
+/* CSS placed here will be applied to all skins */
+body {
+    background-image: url("https://cobaltcore.wiki.gg/images/2/26/Background.png");
+    /*background-color: #0B0A2F;*/
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: visible;
+    overflow-y: visible;
+    position: relative;
+    top: 0;
+}
+
+#p-logo {
+    background-image: url("https://cobaltcore.wiki.gg/images/8/8e/Logo_Transparent.png");
+    background-size: 160px;
+}
+
+#mw-page-base {
+    background-image: none;
+    background-color: #FFFFFF00;
+}
+
+#p-navigation, #p-tb {
+    background-color: #0C0C31CC;
+}
+
+#content {
+    background-color: #1F2656CC;
+    color: #B2B2B2;
+    border-color: #060326;
+    border-style: solid;
+    border-width: 2px;
+    margin-right: 20px;
+}
+
+h1, h2, h3, h4, h5, h6, p, label, .mw-headline, .mw-footer, .mw-footer li, #content {
+    color: #DDDDDD;
+}
+
+#p-navigation a:link, #p-navigation a:visited, #p-tb a:link, #p-tb a:visited, #content a:link, #content a:visited, a:link, a:visited {
+    color: #9D96D3;
+}
+
+/* Vector Tabs background removal */
+.vector-menu-tabs-legacy .selected,
+.vector-menu-tabs-legacy li,
+.vector-menu-tabs, .vector-menu-tabs a,
+#mw-head .vector-menu-dropdown .vector-menu-heading {
+    background: none;
+    
+}
+
+.vector-menu-tabs-legacy .selected, .vector-menu-tabs-legacy li{
+    background-color: #1F2656CC;
+    border-color: #060326;
+    border-style: none solid none solid;
+    border-width: 1px;
+}
+
+.vector-menu-tabs a:visited, .vector-menu-tabs a:link, .vector-menu-tabs a:hover, .vector-menu-tabs a:active {
+    color: #9D96D3;
+}
+
+.galleries .gallerybox .thumb {
+    background-color: #090623;
+}
+
+.galleries .gallerybox .thumb img {
+    image-rendering: pixelated;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.d-flex {
+    display: flex; 
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-space-around {
+    justify-content: space-around;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.vector-menu-tabs-legacy .selected a, .vector-menu-tabs-legacy .selected a:visited {
+    color: #fcfbfd;
+}
